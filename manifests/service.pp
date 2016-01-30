@@ -4,8 +4,8 @@ class phpfpm::service(
 
   $services.each |$service, $service_configuration|{
     Service{ $service:
-      enable  => $service_configuration['enable'],
       ensure  => $service_configuration['ensure'],
+      enable  => $service_configuration['enable'],
       require => $service_configuration['require'],
     }
   }

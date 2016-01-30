@@ -17,12 +17,12 @@ class phpfpm::params
     ] $limits
 ){
 
-  $mandatory_dependencies = { 
+  $mandatory_dependencies = {
     php5       => 'apt',
     php5-curl  => 'apt',
     php5-fpm   => 'apt',
     php5-mysql => 'apt'
-  } 
+  }
 
   $services = {
     php5-fpm   => {
