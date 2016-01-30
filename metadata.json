@@ -1,0 +1,28 @@
+{
+  "author" : "Jascha Casadio",
+  "dependencies": [],
+  "description": "Deploys, configure and maintain PHP-FPM",
+  "issues_url": "https://github.com/jaschac/puppet-phpfpm.git",
+  "license": "Apache-2.0",
+  "name": "lostinmalloc-phpfpm",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "7",
+        "8" 
+      ]
+    }   
+  ],
+  "project_page": " https://forge.puppetlabs.com/lostinmalloc/phpfpm",
+  "requirements": [
+    {   
+      "name": "puppet",
+      "version_requirement": ">=4.0.0 <5.0.0"
+    }
+  ],
+  "source": "https://github.com/jaschac/puppet-phpfpm.git",
+  "summary": "Deploys, configure and maintain PHP-FPM",
+  "tags":["fastcgi", "fpm", "php"],
+  "version": "0.0.1"
+}
