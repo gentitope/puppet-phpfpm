@@ -24,4 +24,12 @@ class phpfpm::params
     php5-mysql => 'apt'
   } 
 
+  $services = {
+    php5-fpm   => {
+      ensure  => running,
+      enable  => true,
+      require => Package['php5-fpm'],
+    },
+  }
+
 }
