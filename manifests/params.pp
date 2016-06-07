@@ -7,8 +7,8 @@ class phpfpm::params
         String,
         String
       ]
-    ] $extra_dependencies,
-
+    ] $extra_dependencies = {},
+ 
     Optional[
       Struct[{
         max_size_post   => Optional[String],
